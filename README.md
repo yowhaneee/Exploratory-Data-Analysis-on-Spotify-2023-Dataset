@@ -14,8 +14,8 @@ The dataset includes various features of popular Spotify tracks, such as:
 
 ## Repository Structure
 
-- **`data/`**: Contains the dataset (`spotify-2023.csv`).
-- **`notebooks/`**: Contains the Jupyter Notebook with the EDA (`EDA_Spotify_Tracks.ipynb`).
+- **`data`**: Contains the dataset (`spotify-2023.csv`).
+- **`notebooks`**: Contains the Jupyter Notebook with the EDA (`EDA_Spotify_Tracks.ipynb`).
 - **`README.md`**: This file, containing project documentation.
 
 ## Exploratory Data Analysis
