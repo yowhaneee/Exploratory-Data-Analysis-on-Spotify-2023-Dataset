@@ -306,7 +306,8 @@ for col in platform_columns:
 df.loc[:, 'total_playlists'] = df[platform_columns].sum(axis=1)
 
 # Top 5 artists by playlist appearances
-top_playlist_artists = df.groupby('artist(s)_name')['total_playlists'].sum().nlargest(5)
+# Group and ensure the sum is numeric to avoid TypeError
+top_playlist_artists = df.groupby('artist(s)_name')['total_playlists'].sum().sort_values(ascending=False).head(5)
 print("\nTop 5 Artists by Playlist Appearances:")
 print(top_playlist_artists)
 
