@@ -321,6 +321,79 @@ plt.xticks(rotation=45)  # Rotate x labels for better readability
 plt.show()
 ```
 
+## Results and Graphs
+
+Overview of Dataset
+- How many rows and columns does the dataset contain?
+  
+  ![image](https://github.com/user-attachments/assets/2e6d3010-73b7-4b14-97e9-39a7c3d1a984)
+
+- What are the data types of each column?
+
+  ![image](https://github.com/user-attachments/assets/826785ff-f960-44d7-9ddc-10553b131a3c)
+
+- Are there any missing values?
+
+  ![image](https://github.com/user-attachments/assets/bf48e7fa-9b72-4ec4-be9c-14739c371c51)
+
+
+Basic Descriptive Statistics
+- What are the mean, median, and standard deviation of the streams column?
+
+  ![image](https://github.com/user-attachments/assets/36b85d0b-a95b-400a-970d-f5abfe5bd840)
+
+- What is the distribution of released_year and artist_count? Are there any noticeable trends or outliers?
+
+  ![image](https://github.com/user-attachments/assets/1191cad6-a4dc-4fd0-9f19-d9165dc24dc6)
+
+  ![image](https://github.com/user-attachments/assets/aca19eeb-fac9-4c4e-a1da-6387a31863ee)
+
+  ![image](https://github.com/user-attachments/assets/158fee8b-c069-4441-a3ee-ea0d5eeafc43)
+
+Top Performers
+- Which track has the highest number of streams? Display the top 5 most streamed tracks.
+
+  ![image](https://github.com/user-attachments/assets/d9eff477-5f79-43a7-bc31-087078e46ccf)
+
+- Who are the top 5 most frequent artists based on the number of tracks in the dataset?
+
+  ![image](https://github.com/user-attachments/assets/446aebbb-5bdc-4650-9e4e-a483c9fa1bd0)
+
+Temporal Trends
+- Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year.
+
+  ![image](https://github.com/user-attachments/assets/dc15d121-2db3-4522-b227-3b41e1e63e27)
+
+- Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?
+
+  ![image](https://github.com/user-attachments/assets/604423a2-7a21-49e6-bafd-8288027e47c5)
+
+Genre and Music Characteristics
+- Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most?
+
+  ![image](https://github.com/user-attachments/assets/74cee819-e411-4c78-9d2b-e1e8caf3a992)
+
+- Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?
+ 
+  ![image](https://github.com/user-attachments/assets/1e9b774f-55b7-406e-a55c-3eba41205295)
+
+Platform Popularity
+- How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_playlists compare? Which platform seems to favor the most popular tracks?
+
+  ![image](https://github.com/user-attachments/assets/4d5d5547-7782-40f2-abc8-cbcdbb2ae4ec)
+
+Advanced Analysis
+- Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)?
+
+  ![image](https://github.com/user-attachments/assets/86fb11a5-9a7e-4a68-83c9-85ce1b8efd3a)
+
+  ![image](https://github.com/user-attachments/assets/5669e796-7acd-4d0c-bd1e-453c5285d461)
+
+- Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.
+
+  ![image](https://github.com/user-attachments/assets/264325d3-28a7-44d0-863a-a68b844bacf2)
+
+
 ## Key Insights
 
 1. **Top Performers**: Certain tracks and artists dominate streams, with the top 5 most-streamed tracks and most frequent artists identified.
