@@ -1,7 +1,5 @@
 # Exploratory-Data-Analysis-on-Spotify-2023-Dataset
 
-# Spotify 2023 Tracks - Exploratory Data Analysis
-
 This repository contains an exploratory data analysis (EDA) of Spotify's top tracks for 2023. The purpose of this analysis is to uncover trends, correlations, and insights related to music characteristics and track popularity.
 
 ## Dataset
